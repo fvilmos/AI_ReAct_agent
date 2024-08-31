@@ -1,6 +1,6 @@
 ### ReAct (Reasoning and Acting) agent with local LLM
 
-The implements a Reasoning and Acting[3] agent with local LLM and tools usage in Python. The ReAct prompts LLMs via a chain of thoughts approach [4] to generate local reasoning traces independent from the environment in the first step and then derive answers or decisions based on previous thoughts and history, in the final step.
+The code implements a Reasoning and Acting[3] agent with local LLM and tools usage in Python. The ReAct prompts LLMs via a chain of thoughts approach [4] to generate local reasoning traces independent from the environment in the first step and then derive answers or decisions based on previous thoughts and history, in the final step.
 
 ```mermaid
 graph LR
