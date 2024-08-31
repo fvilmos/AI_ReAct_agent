@@ -1,0 +1,7 @@
+{
+    "//1": "Update parameters according to your needs",
+    "LLM_MODEL": "llama3.1",
+    "VLLM_MODEL": "llava",
+    "MAX_TRIES": 5,
+    "VERBOSE": 0
+}
