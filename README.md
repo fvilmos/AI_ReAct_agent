@@ -9,7 +9,7 @@ A(N reasoning traces) -->B(LLM) -->C(Environment)
   C-->B
 
 ```
-Sample trasoning traces:
+Sample reasoning traces:
 ```code
 Question:  What is the last pet's name of the current USA president? If there are more, list all of them.
 NextAction.INIT 0:  INIT
@@ -41,10 +41,10 @@ Currently available tools (utils.tools), see also[5]:  get_local_datetime, calcu
 #### Test results
 
 ```lua
-Question:  where was born Romania's faimous fotball star Hagi's son?
+Question:  where was born Romania's famous football star Hagi's son?
 Answer: I learned that Ianis Hagi, the son of Romanian famous football star Gheorghe Hagi, was born on October 22, 1998, in Istanbul, Turkey.
 
-Question:  Janet's ducks lay 16 eggs per day, She eats 3 for breakfast averry 
+Question:  Janet's ducks lay 16 eggs per day, She eats 3 for breakfast every 
 morning and bakes muffins for her friends every day with 4. She sells the reminder for 2$ per egg. How much money does she make in a single day?
 Answer: Janet makes $18 in a single day from selling her remaining eggs after eating and baking some.
 
